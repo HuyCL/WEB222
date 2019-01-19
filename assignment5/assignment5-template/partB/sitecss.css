@@ -1,0 +1,153 @@
+/******************************************************************** I declare that my assignment is wholly my own work in accordance with Seneca Academic Policy. No part of this assignment has been copied manually or electronically from any other source (including web sites) except for the information supplied by the WEB222 instructors and / or made available in this assignment for my use.
+I also declare that no part of this assignment has been distributed to other students.
+Name: Huy Lam
+Dated: ********************************************************************/
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(84, 87, 83);
+    position: relative;
+}
+#title {
+    color: rgb(204, 0, 102);
+    filter: none;
+    position: absolute;
+    top: 60px;
+    right: 500px;
+    bottom: 60px;
+    left: 450px;
+    z-index: 5;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 40px;
+}
+
+#image {
+    margin: 0;
+    padding: 100px;
+    filter: blur(2px);
+    background-image: url(website-background.jpeg);
+    position: relative;
+    z-index: 2;
+}
+
+.phone {
+    color: rgba(2, 240, 248, 0.884);
+    font-size: 20px;
+}
+
+#phone1 {
+    position: absolute;
+    top: 250px;
+    left: 100px;
+}
+
+.hovering {
+    position: absolute;
+    top: 21px;
+    left: 0px;
+    height: 200px;
+    width: 260px;
+    padding: 0px 5px;
+    border-style: double;
+    border-color: white;
+    background: rgba(38, 42, 65, 0.6);
+    color: rgb(206, 199, 233);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .2s, visibility .2s;
+    z-index: 4;
+    text-align: center;
+    font-size: 16px;
+}
+
+.hovering2 {
+    position: absolute;
+    top: 21px;
+    left: 0px;
+    height: 250px;
+    width: 260px;
+    padding: 0px 5px;
+    border-style: double;
+    border-color: white;
+    background: rgba(38, 42, 65, 0.6);
+    color: rgb(206, 199, 233);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .2s, visibility .2s;
+    z-index: 4;
+    text-align: center;
+    font-size: 16px;
+}
+
+.phone:hover .hovering {
+    visibility: visible;
+    opacity: 1;
+}
+
+.phone:hover .hovering2 {
+    visibility: visible;
+    opacity: 1;
+}
+#phone2 {
+    position: absolute;
+    top: 250px;
+    left: 400px;
+}
+
+#phone3 {
+    position: absolute;
+    top: 250px;
+    left: 700px;
+}
+#phone4 {
+    position: absolute;
+    top: 500px;
+    left: 100px;
+}
+
+#phone5 {
+    position: absolute;
+    top: 500px;
+    left: 400px;
+}
+
+#phone6 {
+    position: absolute;
+    top: 500px;
+    left: 700px;
+}
+
+#phone7 {
+    position: absolute;
+    top: 800px;
+    left: 100px;
+}
+
+#phone8 {
+    position: absolute;
+    top: 800px;
+    left: 400px;
+}
+
+#phone9 {
+    position: absolute;
+    top: 800px;
+    left: 700px;
+}
+
+#phone10 {
+    position: absolute;
+    top: 1100px;
+    left: 400px;
+}
+footer {
+    position: absolute;
+    top: 1500px;
+    right: 20px;
+    color: white;
+    
+}
